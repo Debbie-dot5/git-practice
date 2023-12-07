@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(52,53,65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.todo-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 500px; */
+    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+
+input{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+ 
+}
+
+input::placeholder{
+    font-size: 18px;
+
+}
+
+p{
+    font-size: 18px;
+  
+}
+
+button{
+    padding: 10px 20px;
+    
+    
+
+}
+
+
+
+.todo-grid, .todo-input-grid{
+    display: grid;
+    grid-template-columns:200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;  
+    color: white;
+    align-items: center;
+   
+}
+
+.todo-input-grid{
+    margin-bottom: 20px;
+}
+
+
+.date-input{
+  color: white
+}
+
+
+.add-btn{
+    
+}
+
+.delete-btn, .add-btn{
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+/* .btn2{
+    background-color: red;
+} */
